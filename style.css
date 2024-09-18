@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 body {
   background: url(./assents/bg-mobile.jpg) no-repeat top center/cover;
+}
+body *{
+   font-family: "Inter", sans-serif;
+   color: white;
 }
 #conteiner{
   width: 360px;
@@ -15,4 +26,10 @@ body {
 
 #profile img {
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+
 }
