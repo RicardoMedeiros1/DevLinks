@@ -15,8 +15,7 @@ body *{
 #conteiner{
   width: 360px;
   margin: 56px auto 0px;
-
-
+  padding: 0 24px;
 }
 
 #profile {
@@ -62,4 +61,13 @@ ul li a {
 
   text-decoration: none;
   font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+/*pseudo-selector*/
+
+ul li a:hover {
+  background: rgb(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
