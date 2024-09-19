@@ -4,13 +4,22 @@
   box-sizing: border-box;
 
 }
+:root{
+  --text-color:white;
+  --bg-url: url(./assents/bg-mobile.jpg)
+}
 
+.light {
+  --text-color: black;
+  --bg-url: url(./assents/bg-mobile-light.jpg)
+
+}
 body {
-  background: url(./assents/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 body *{
    font-family: "Inter", sans-serif;
-   color: white;
+   color: var(--text-color);
 }
 #conteiner{
   width: 360px;
@@ -71,7 +80,7 @@ ul li a {
 
 ul li a:hover {
   background: rgb(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
 }
 
 /*social links*/
